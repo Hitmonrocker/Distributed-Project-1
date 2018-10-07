@@ -32,14 +32,10 @@ message error{
     string errno = 8;
 }
 
-service POST{
+service BULLETIN{
     rpc POST (PUT) returns (PUT);
-}
-
-service GET{
-    rpc GET (GET) returns (GET);
-}
-
-service LIST{
+    
     rpc LIST (LIST) returns (LIST);
+    
+    rpc GET (GET) returns (GET);
 }
