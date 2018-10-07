@@ -1,5 +1,6 @@
 package com.bulletinboard;
 
-public class BulletinBoardService{
+public class BulletinBoardService extends BULLETINGrpc{
+	
     
 }

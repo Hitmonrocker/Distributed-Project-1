@@ -1,1 +1,100 @@
 2018-10-07 14:51:25,179 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-10-07 15:45:44,956 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-10-07 15:47:15,050 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-10-07 15:47:16,351 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BulletinBoard:BulletinBoard:0.0.1-SNAPSHOT @ /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/pom.xml.
+2018-10-07 15:47:17,132 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 15:47:17,136 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 15:47:17,626 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 15:47:17,642 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 15:47:17,644 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 15:47:17,648 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 15:47:17,650 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 15:47:17,757 [Worker-10: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gRPC-BulletinBoard-Project-master/src/main/java
+2018-10-07 15:47:17,763 [Worker-10: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gRPC-BulletinBoard-Project-master/target/generated-sources/protobuf/java
+2018-10-07 15:47:17,764 [Worker-10: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gRPC-BulletinBoard-Project-master/src/main/proto
+2018-10-07 15:47:17,766 [Worker-10: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gRPC-BulletinBoard-Project-master/src/test/java
+2018-10-07 15:47:18,593 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-10-07 15:47:18,970 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 15:47:18,972 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 15:47:18,973 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 15:47:18,975 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:00:36,198 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:00:36,202 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:00:36,204 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:00:36,206 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:00:36,208 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-07 16:00:36,209 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-07 16:00:36,210 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:00:36,212 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:01:01,362 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:01:01,366 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:01:01,367 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:01:01,369 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:01:01,370 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:01:01,371 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:01:01,372 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:01:01,374 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:04:52,927 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:04:52,930 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:04:52,932 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:04:52,934 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:04:52,934 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:04:52,936 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:04:52,937 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:04:52,938 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:08:18,982 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:08:18,989 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:08:18,990 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:08:18,992 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:08:18,993 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:08:18,994 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:08:18,995 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:08:18,997 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:13:21,184 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:13:21,189 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:13:21,191 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:13:21,194 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:13:21,194 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:13:21,196 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:13:21,196 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:13:21,197 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:13:39,698 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:13:39,701 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:13:39,702 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:13:39,703 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:13:39,704 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:13:39,705 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:13:39,707 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:13:39,708 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:14:00,330 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:14:00,333 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:14:00,334 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:14:00,336 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:14:00,337 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:14:00,338 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:14:00,339 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:14:00,340 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:14:35,015 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:14:35,019 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:14:35,020 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:14:35,021 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:14:35,022 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:14:35,023 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:14:35,023 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:14:35,025 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:14:38,932 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:14:38,935 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:14:38,936 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:14:38,938 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:14:38,938 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:14:38,940 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:14:38,940 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:14:38,942 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
+2018-10-07 16:15:28,742 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:15:28,749 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2018-10-07 16:15:28,752 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:15:28,756 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/main/resources
+2018-10-07 16:15:28,757 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:15:28,759 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-07 16:15:28,762 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-07 16:15:28,764 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /ilab/users/mam1010/Distributed-Project-1/gRPC-BulletinBoard-Project-master/src/test/resources
