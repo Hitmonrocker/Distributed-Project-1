@@ -14,6 +14,41 @@ public final class BulletinBoard {
     registerAllExtensions(
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_bulletinboard_PUT_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_bulletinboard_PUT_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_bulletinboard_GET_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_bulletinboard_GET_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_bulletinboard_DELETE_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_bulletinboard_DELETE_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_bulletinboard_LIST_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_bulletinboard_LIST_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_bulletinboard_ack_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_bulletinboard_ack_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_bulletinboard_print_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_bulletinboard_print_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_bulletinboard_error_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_bulletinboard_error_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -24,7 +59,16 @@ public final class BulletinBoard {
   static {
     java.lang.String[] descriptorData = {
       "\n\023BulletinBoard.proto\022\021com.bulletinboard" +
-      "B\002P\001b\006proto3"
+      "\"\"\n\003PUT\022\r\n\005title\030\001 \001(\t\022\014\n\004body\030\002 \001(\t\"\024\n\003" +
+      "GET\022\r\n\005title\030\003 \001(\t\"\027\n\006DELETE\022\r\n\005title\030\004 " +
+      "\001(\t\"\006\n\004LIST\"\024\n\003ack\022\r\n\005ackno\030\005 \001(\t\"&\n\005pri" +
+      "nt\022\r\n\005title\030\006 \001(\t\022\016\n\006messge\030\007 \001(\t\"\026\n\005err" +
+      "or\022\r\n\005errno\030\010 \001(\t2\265\001\n\010BULLETIN\0226\n\004POST\022\026" +
+      ".com.bulletinboard.PUT\032\026.com.bulletinboa" +
+      "rd.PUT\0229\n\005LISTS\022\027.com.bulletinboard.LIST" +
+      "\032\027.com.bulletinboard.LIST\0226\n\004GETS\022\026.com." +
+      "bulletinboard.GET\032\026.com.bulletinboard.GE" +
+      "TB\002P\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -38,6 +82,48 @@ public final class BulletinBoard {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         }, assigner);
+    internal_static_com_bulletinboard_PUT_descriptor =
+      getDescriptor().getMessageTypes().get(0);
+    internal_static_com_bulletinboard_PUT_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_bulletinboard_PUT_descriptor,
+        new java.lang.String[] { "Title", "Body", });
+    internal_static_com_bulletinboard_GET_descriptor =
+      getDescriptor().getMessageTypes().get(1);
+    internal_static_com_bulletinboard_GET_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_bulletinboard_GET_descriptor,
+        new java.lang.String[] { "Title", });
+    internal_static_com_bulletinboard_DELETE_descriptor =
+      getDescriptor().getMessageTypes().get(2);
+    internal_static_com_bulletinboard_DELETE_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_bulletinboard_DELETE_descriptor,
+        new java.lang.String[] { "Title", });
+    internal_static_com_bulletinboard_LIST_descriptor =
+      getDescriptor().getMessageTypes().get(3);
+    internal_static_com_bulletinboard_LIST_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_bulletinboard_LIST_descriptor,
+        new java.lang.String[] { });
+    internal_static_com_bulletinboard_ack_descriptor =
+      getDescriptor().getMessageTypes().get(4);
+    internal_static_com_bulletinboard_ack_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_bulletinboard_ack_descriptor,
+        new java.lang.String[] { "Ackno", });
+    internal_static_com_bulletinboard_print_descriptor =
+      getDescriptor().getMessageTypes().get(5);
+    internal_static_com_bulletinboard_print_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_bulletinboard_print_descriptor,
+        new java.lang.String[] { "Title", "Messge", });
+    internal_static_com_bulletinboard_error_descriptor =
+      getDescriptor().getMessageTypes().get(6);
+    internal_static_com_bulletinboard_error_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_bulletinboard_error_descriptor,
+        new java.lang.String[] { "Errno", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

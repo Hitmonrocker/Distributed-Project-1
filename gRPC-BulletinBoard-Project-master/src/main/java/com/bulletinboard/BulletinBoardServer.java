@@ -1,4 +1,7 @@
 package com.bulletinboard;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,7 +37,9 @@ public class BulletinBoardServer {
         }
     }
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
+        int portNumber = Integer.parseInt(args[0]);
+        ServerSocket serverSocket = new ServerSocket(portNumber);
+        Socket clientSocket = serverSocket.accept();
     }
 }

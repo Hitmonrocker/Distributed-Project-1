@@ -34,8 +34,8 @@ message error{
 
 service BULLETIN{
     rpc POST (PUT) returns (PUT);
-    
-    rpc LIST (LIST) returns (LIST);
-    
-    rpc GET (GET) returns (GET);
+
+    rpc LISTS (LIST) returns (LIST);
+
+    rpc GETS (GET) returns (GET);
 }

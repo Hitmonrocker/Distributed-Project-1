@@ -1,0 +1,41 @@
+syntax = "proto3";
+package com.bulletinboard;
+option java_multiple_files = true;
+
+
+message PUT {
+    string title = 1;
+    string body = 2;
+}
+
+message GET {
+    string title = 3;
+}
+
+message DELETE {
+    string title = 4;
+}
+
+message LIST {
+}
+
+message ack{
+    string ackno = 5;
+}
+
+message print{
+    string title = 6;
+    string messge = 7;
+}
+
+message error{
+    string errno = 8;
+}
+
+service BULLETIN{
+    rpc POST (PUT) returns (PUT);
+
+    rpc LISTS (LIST) returns (LIST);
+
+    rpc GETS (GET) returns (GET);
+}
