@@ -7,26 +7,31 @@ public class BulletinBoardServer {
 
 	public void PUT(String title , String body){
             Board.put(title,body);
+            //call ack
     }
 
-    public String GET(String title){
+    public void  GET(String title){
         if(Board.containsKey(title)){
-            return Board.get(title);
+            //call printBoard.get(title);
         }
         else {
-            return "There is no posting named " + title;
+
+            // call errrno "There is no posting named ";
         }
     }
 
     public void DELETE(String title){
        if(Board.containsKey(title)){
            Board.remove(title);
+           //call ack
        }
-
+       //call errno
     }
 
-    public Map<String,String> LIST(String title , String body){
-       return Board;
+    public void LIST(){
+        for (String S:Board.keySet()) {
+            //call print(S+" : "+Board.get(S));
+        }
     }
 
     public static void main(String[] args) {
