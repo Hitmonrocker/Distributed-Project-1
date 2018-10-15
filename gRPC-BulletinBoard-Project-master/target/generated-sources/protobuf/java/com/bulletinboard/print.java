@@ -17,7 +17,6 @@ private static final long serialVersionUID = 0L;
   }
   private print() {
     title_ = "";
-    messge_ = "";
   }
 
   @java.lang.Override
@@ -55,12 +54,6 @@ private static final long serialVersionUID = 0L;
             java.lang.String s = input.readStringRequireUtf8();
 
             title_ = s;
-            break;
-          }
-          case 58: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            messge_ = s;
             break;
           }
         }
@@ -121,40 +114,6 @@ private static final long serialVersionUID = 0L;
     }
   }
 
-  public static final int MESSGE_FIELD_NUMBER = 7;
-  private volatile java.lang.Object messge_;
-  /**
-   * <code>string messge = 7;</code>
-   */
-  public java.lang.String getMessge() {
-    java.lang.Object ref = messge_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      messge_ = s;
-      return s;
-    }
-  }
-  /**
-   * <code>string messge = 7;</code>
-   */
-  public com.google.protobuf.ByteString
-      getMessgeBytes() {
-    java.lang.Object ref = messge_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      messge_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
-  }
-
   private byte memoizedIsInitialized = -1;
   public final boolean isInitialized() {
     byte isInitialized = memoizedIsInitialized;
@@ -170,9 +129,6 @@ private static final long serialVersionUID = 0L;
     if (!getTitleBytes().isEmpty()) {
       com.google.protobuf.GeneratedMessageV3.writeString(output, 6, title_);
     }
-    if (!getMessgeBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 7, messge_);
-    }
     unknownFields.writeTo(output);
   }
 
@@ -183,9 +139,6 @@ private static final long serialVersionUID = 0L;
     size = 0;
     if (!getTitleBytes().isEmpty()) {
       size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, title_);
-    }
-    if (!getMessgeBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, messge_);
     }
     size += unknownFields.getSerializedSize();
     memoizedSize = size;
@@ -205,8 +158,6 @@ private static final long serialVersionUID = 0L;
     boolean result = true;
     result = result && getTitle()
         .equals(other.getTitle());
-    result = result && getMessge()
-        .equals(other.getMessge());
     result = result && unknownFields.equals(other.unknownFields);
     return result;
   }
@@ -220,8 +171,6 @@ private static final long serialVersionUID = 0L;
     hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + TITLE_FIELD_NUMBER;
     hash = (53 * hash) + getTitle().hashCode();
-    hash = (37 * hash) + MESSGE_FIELD_NUMBER;
-    hash = (53 * hash) + getMessge().hashCode();
     hash = (29 * hash) + unknownFields.hashCode();
     memoizedHashCode = hash;
     return hash;
@@ -353,8 +302,6 @@ private static final long serialVersionUID = 0L;
       super.clear();
       title_ = "";
 
-      messge_ = "";
-
       return this;
     }
 
@@ -378,7 +325,6 @@ private static final long serialVersionUID = 0L;
     public com.bulletinboard.print buildPartial() {
       com.bulletinboard.print result = new com.bulletinboard.print(this);
       result.title_ = title_;
-      result.messge_ = messge_;
       onBuilt();
       return result;
     }
@@ -422,10 +368,6 @@ private static final long serialVersionUID = 0L;
       if (other == com.bulletinboard.print.getDefaultInstance()) return this;
       if (!other.getTitle().isEmpty()) {
         title_ = other.title_;
-        onChanged();
-      }
-      if (!other.getMessge().isEmpty()) {
-        messge_ = other.messge_;
         onChanged();
       }
       this.mergeUnknownFields(other.unknownFields);
@@ -520,75 +462,6 @@ private static final long serialVersionUID = 0L;
   checkByteStringIsUtf8(value);
       
       title_ = value;
-      onChanged();
-      return this;
-    }
-
-    private java.lang.Object messge_ = "";
-    /**
-     * <code>string messge = 7;</code>
-     */
-    public java.lang.String getMessge() {
-      java.lang.Object ref = messge_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        messge_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
-    }
-    /**
-     * <code>string messge = 7;</code>
-     */
-    public com.google.protobuf.ByteString
-        getMessgeBytes() {
-      java.lang.Object ref = messge_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        messge_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-    /**
-     * <code>string messge = 7;</code>
-     */
-    public Builder setMessge(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      messge_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string messge = 7;</code>
-     */
-    public Builder clearMessge() {
-      
-      messge_ = getDefaultInstance().getMessge();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string messge = 7;</code>
-     */
-    public Builder setMessgeBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      messge_ = value;
       onChanged();
       return this;
     }

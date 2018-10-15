@@ -24,8 +24,7 @@ message ack{
 }
 
 message print{
-    string title = 6;
-    string messge = 7;
+   string title = 6;
 }
 
 message error{
@@ -33,9 +32,11 @@ message error{
 }
 
 service BULLETIN{
-    rpc POST (PUT) returns (PUT);
+    rpc POST (PUT) returns (error);
 
-    rpc LISTS (LIST) returns (LIST);
+    rpc LISTS (LIST) returns (print);
 
-    rpc GETS (GET) returns (GET);
+    rpc GETS (GET) returns (error);
+
+    rpc DELETES (DELETE) returns (error);
 }

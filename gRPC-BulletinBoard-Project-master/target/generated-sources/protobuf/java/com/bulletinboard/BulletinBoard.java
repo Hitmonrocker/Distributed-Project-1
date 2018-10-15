@@ -61,14 +61,15 @@ public final class BulletinBoard {
       "\n\023BulletinBoard.proto\022\021com.bulletinboard" +
       "\"\"\n\003PUT\022\r\n\005title\030\001 \001(\t\022\014\n\004body\030\002 \001(\t\"\024\n\003" +
       "GET\022\r\n\005title\030\003 \001(\t\"\027\n\006DELETE\022\r\n\005title\030\004 " +
-      "\001(\t\"\006\n\004LIST\"\024\n\003ack\022\r\n\005ackno\030\005 \001(\t\"&\n\005pri" +
-      "nt\022\r\n\005title\030\006 \001(\t\022\016\n\006messge\030\007 \001(\t\"\026\n\005err" +
-      "or\022\r\n\005errno\030\010 \001(\t2\265\001\n\010BULLETIN\0226\n\004POST\022\026" +
-      ".com.bulletinboard.PUT\032\026.com.bulletinboa" +
-      "rd.PUT\0229\n\005LISTS\022\027.com.bulletinboard.LIST" +
-      "\032\027.com.bulletinboard.LIST\0226\n\004GETS\022\026.com." +
-      "bulletinboard.GET\032\026.com.bulletinboard.GE" +
-      "TB\002P\001b\006proto3"
+      "\001(\t\"\006\n\004LIST\"\024\n\003ack\022\r\n\005ackno\030\005 \001(\t\"\026\n\005pri" +
+      "nt\022\r\n\005title\030\006 \001(\t\"\026\n\005error\022\r\n\005errno\030\010 \001(" +
+      "\t2\372\001\n\010BULLETIN\0228\n\004POST\022\026.com.bulletinboa" +
+      "rd.PUT\032\030.com.bulletinboard.error\022:\n\005LIST" +
+      "S\022\027.com.bulletinboard.LIST\032\030.com.bulleti" +
+      "nboard.print\0228\n\004GETS\022\026.com.bulletinboard" +
+      ".GET\032\030.com.bulletinboard.error\022>\n\007DELETE" +
+      "S\022\031.com.bulletinboard.DELETE\032\030.com.bulle" +
+      "tinboard.errorB\002P\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -117,7 +118,7 @@ public final class BulletinBoard {
     internal_static_com_bulletinboard_print_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_bulletinboard_print_descriptor,
-        new java.lang.String[] { "Title", "Messge", });
+        new java.lang.String[] { "Title", });
     internal_static_com_bulletinboard_error_descriptor =
       getDescriptor().getMessageTypes().get(6);
     internal_static_com_bulletinboard_error_fieldAccessorTable = new
