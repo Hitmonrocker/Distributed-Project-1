@@ -1,45 +1,35 @@
 package com.bulletinboard;
+import java.rmi.Naming;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.grpc.Server;
+import io.grpc.ServerBuilder;
+
 public class BulletinBoardServer {
-    Map<String,String> Board = new HashMap<String, String>();
-
-	public void PUT(String title , String body){
-            Board.put(title,body);
-            //call ack
-    }
-
-    public void  GET(String title){
-        if(Board.containsKey(title)){
-            //call printBoard.get(title);
-        }
-        else {
-
-            // call errrno "There is no posting named ";
-        }
-    }
-
-    public void DELETE(String title){
-       if(Board.containsKey(title)){
-           Board.remove(title);
-           //call ack
-       }
-       //call errno
-    }
-
-    public void LIST(){
-        for (String S:Board.keySet()) {
-            //call print(S+" : "+Board.get(S));
-        }
-    }
-
-    public static void main(String[] args) throws IOException {
-        int portNumber = Integer.parseInt(args[0]);
-        ServerSocket serverSocket = new ServerSocket(portNumber);
-        Socket clientSocket = serverSocket.accept();
+    
+	
+    public static void main(String[] args) {
+    	Server server = ServerBuilder
+    	          .forPort(20001)
+    	          .addService(new BulletinBoardService()).build();
+    	 
+    	        try {
+					server.start();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+    	        try {
+					server.awaitTermination();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
     }
 }
